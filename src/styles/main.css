@@ -2,7 +2,7 @@ container {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url("../images/wall.png");
+    background-image: url("../images/wall.jpeg");
 }
 
 .menu {
@@ -12,11 +12,12 @@ container {
 
 
     height: 90px;
-    width:  100px;
+    width:  100%;
     background-color: #000000;
     color: #ffffff;
     border-bottom: 5px solid #ffd700;
 }
+
 .panel {
     margin-top: 1rem;
     display: flex;
@@ -33,7 +34,7 @@ container {
 }
 
 .enemy {
-    background-image: url("../images/ralph.png");
+    background-image: url("../images/ralph.jpg");
     background-size: cover;
 }
 
